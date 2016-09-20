@@ -64,6 +64,8 @@ a {
     color: black;
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .av-Index__mail:hover {
