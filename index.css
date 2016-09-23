@@ -24,12 +24,9 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-right: 1em;
-    padding-left: 1em;
 }
 
 .av-Index__mail {
-    font-size: 28px;
     color: #ff5252;
     font-family: 'Bungee Shade', cursive;
     width: 200px;
@@ -38,7 +35,6 @@ a {
 }
 
 .av-Index__linkedin {
-    font-size: 28px;
     color: #ff5252;
     font-family: 'Bungee Shade', cursive;
     width: 200px;
@@ -47,7 +43,6 @@ a {
 }
 
 .av-Index__github {
-    font-size: 28px;
     color: #ff5252;
     font-family: 'Bungee Shade', cursive;
     width: 200px;
@@ -63,28 +58,33 @@ a {
 }
 
 .av-Index__image {
+    max-width: 35%;
     width: 200px;
-    height: 200px;
+    height: auto;
     border-radius: 100px;
 }
 
 .av-Index__description {
-    font-size: 28px;
     color: black;
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    padding-right: 1em;
-    padding-left: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
-.av-Index__mail:hover {
+.av-Index__social:hover {
     font-size: 32px;
 }
 
-.av-Index__linkedin:hover {
-    font-size: 32px;
+.av-Index__text {
+    font-size: 28px;
 }
 
-.av-Index__github:hover {
-    font-size: 32px;
+@media screen and (max-width:599px) {
+    .av-Index__name {
+        font-size: 28px;
+    }
+    .av-Index__text {
+        font-size: 24px;
+    }
 }
