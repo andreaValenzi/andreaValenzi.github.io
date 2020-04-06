@@ -50,6 +50,14 @@ a {
     text-align: center;
 }
 
+.av-Index__twitter {
+    color: #ff5252;
+    font-family: 'Bungee Shade', cursive;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
 .av-Index__name {
     font-size: 32px;
     color: black;
